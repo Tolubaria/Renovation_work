@@ -1,0 +1,90 @@
+@import "mixin-fonts";
+@import "variable";
+
+.description-of-services {
+	max-width: 1400px;
+	float: right;
+	margin-bottom: 128px;
+		&__body {
+			width: 30.9375em; //495px;
+		}
+		&__title {
+			margin-top: 78px;
+			margin-bottom: 24px;
+			@include Noto-Sans;
+			font-size: 38px;
+			color: $project-texts;	
+		}
+		&__text {
+			font-size: 0.9375em; //15px;
+		}
+		&__btn {
+			width: 15.5em; //248px;
+			height: 3.0625em; //49px;
+		}
+}
+.text-cover {
+	max-width: 349px;
+}
+.fab, .fas {
+	color: $background-btn;
+}
+.map {
+	margin-top: 109px;
+}
+.carousel-indicators {
+	justify-content: flex-start;
+	bottom: 63px;
+}
+.carousel-indicators li {
+	width: 0.9375em; //15px;
+}
+.box-info {
+	margin-bottom: 175px;
+}
+.services {
+	max-width: 1170px;
+		&__box {
+			margin-top: 69px;
+		}
+		&__card {
+			width: 18.0625em; //289px;
+			margin-top: 86px;
+			cursor: pointer;
+				&__icon {
+					width: 3.625em; //58px;
+				}
+				&__text {
+					width: 13.25em; //212px;
+				}
+		}
+		// &__card:hover {
+		// 	background-color: #FFF7E7;
+		// }
+		&__arrow {
+			width: 2.5em; //40px;
+			height: 0.125em; //2px;
+		}
+}
+.title {
+	@include Noto-Sans;
+	font-size: 1.875em; //30px;
+	line-height: 120%;
+	color: $fonts-color;
+}
+.text {
+	@include Noto-Sans;
+	font-size: 1em; //16px;
+	color: $description-text-light;
+}
+.text-btn {
+	color: $fonts-color;
+}
+.town {
+	font-size: 0.875em; //14px;
+	color: $fonts-color;
+}
+.works {
+	color: $project-texts;
+}
+

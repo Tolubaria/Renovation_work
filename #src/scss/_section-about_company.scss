@@ -1,0 +1,39 @@
+@import "mixin-fonts";
+@import "variable";
+
+.about-company {
+	width: 1400px;
+	&__body {
+		max-width: 540px;
+	}
+}
+.details {
+	color: $background-btn;
+}
+.drawing {
+	width: 618px;
+	height: 503px;
+}
+.career {
+	width: 970px;
+	top: 1950px;
+	left: 400px;
+}
+.success {
+	font-size: 50px;
+	color: $fonts-color;
+	&__span {
+		padding-top: 15px;
+	}
+}
+.results-work {
+	margin-top: 169px;
+	&__text {
+		@include Noto-Sans;
+		font-size: 20px;
+		color: rgba(101, 181, 252, 0.6);
+		&__text:hover {
+			color: #65B5FC;
+		}
+	}
+}

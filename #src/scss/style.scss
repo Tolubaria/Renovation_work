@@ -4,10 +4,14 @@
 
 @import "reset";
 @import "mixin-fonts";
-@import "mixin-fonts";
-@import "_header";
-@import "_nav";
-@import "_footer";
+@import "variable";
+@import "_section-header";
+@import "_section-services";
+@import "_section-about_company";
+@import "_section-consultation";
+@import "_section-popular_goods";
+@import "_section-contaсts";
+@import "_section-footer";
 
 
 .container {

@@ -1,0 +1,33 @@
+@import "mixin-fonts";
+@import "variable";
+
+.popular_goods {
+	margin-top: 156px;
+}
+.card-deck .card {
+	background: #FFFFFF;
+	box-shadow: 0px 15px 50px rgba(67, 76, 109, 0.08);
+}
+.position-name {
+	width: 214px;
+	&__title {
+		@include Noto-Sans;
+		font-size: 13px;
+		line-height: 0.96em; //15.36px
+	}
+	&__text {
+		font-size: 11px;
+	}
+}
+.card-footer {
+	border-color:  #FFFFFF;
+	background-color: #FFFFFF;
+}
+.money {
+	color: #2C3BA0;
+}
+.del {
+	left: 100px;
+	font-size: 12px;
+	color: #2C3BA0 60%;
+}

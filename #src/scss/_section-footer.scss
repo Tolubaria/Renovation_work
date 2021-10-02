@@ -1,0 +1,31 @@
+@import "mixin-fonts";
+@import "variable";
+
+.bank-cards {
+	width: 58px;
+	height: 19px;
+}
+.small {
+	font-size: 11px;
+	color: $fonts-color;
+}
+.form-control {
+	width: 292px;
+	height: 28px;
+}
+.fav {
+	font-size: 15px;
+	color: $fonts-color;
+}
+.arrow {
+	height: 5px;
+}
+.footer {
+	width: 1600px;
+		&__text {
+			font-size: 13px;
+			display: block;
+			margin-bottom: 16px;
+			color: $fonts-color;
+		}
+}

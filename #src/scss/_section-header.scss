@@ -1,0 +1,31 @@
+@import "mixin-fonts";
+@import "variable";
+
+.description {
+	max-width: 133px;
+		&__text {
+			color: $description-text;
+			@include Noto-Sans;
+			font-size: 0.75em; //12px;
+		}
+}
+.navbar-light .navbar-nav .nav-link {
+	color: $fonts-color;
+	font-size: 0.75em; //12px;
+	@include Noto-Sans;
+}
+.number {
+	position: absolute;
+	left: 74.5%;
+	bottom: 57%;
+	width: 1.25em; //20px;
+	height: 1.25em; //20px;
+	background-color: $background-btn;
+	border-radius: 50%;
+}
+.fas {
+	color: $background-btn;
+}
+.user {
+	font-size: 27px;
+}

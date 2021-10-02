@@ -1,28 +1,81 @@
 <div class="container">
-	<div class="logo">
-		<img src="./img/logo/Лого_строительная_компания.png" />
-		<div>
-			<span>Ремонтные и строительные работы</span>
+	<nav class="navbar navbar-expand-lg navbar-light">
+		<div class="navbar-brand d-flex">
+			<img class="" src="./img/logo/Лого_строительная_компания.png" alt="logo" />
+			<div class="description ml-2 mt-2">
+				<p class="description__text text-align">Ремонтные</p>
+				<p class="description__text text-align">и строительные</p> 
+				<p class="description__text text-align">работы</p>
+			</div>
 		</div>
-	</div>
-	<ul class="nav">
-		<li class="nav-item">
-		  <a class="nav-link active" href="#">Услуги</a>
-		</li>
-		<li class="nav-item">
-		  <a class="nav-link" href="#">Портфолио</a>
-		</li>
-		<li class="nav-item">
-		  <a class="nav-link" href="#">Товары</a>
-		</li>
-		<li class="nav-item">
-		  <a class="nav-link disabled" href="#">О нас</a>
-		</li>
-		<li class="nav-item">
-			<a class="nav-link disabled" href="#">Контакты</a>
-		 </li>
-		 <li class="nav-item"><span class="text-reset">Telefon:</span>
-			<a class="text-decoration-none text-muted" href="tel:+38 (044) 784-23-85">+38 (044) 784-23-85</a>
-		 </li>
-	 </ul>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  	<ul class="navbar-nav mr-auto">
+				 	<li class="nav-item active">
+						<a class="nav-link" href="#">Услуги</a>
+				 	</li>
+				 	<li class="nav-item">
+						<a class="nav-link" href="#">Портфолио</a>
+				 	</li>
+				 	<li class="nav-item">
+						<a class="nav-link" href="#">Товары</a>
+				 	</li>
+				 	<li class="nav-item">
+						<a class="nav-link" href="#">О нас</a>
+				 	</li>
+				 	<li class="nav-item mr-2">
+						<a class="nav-link" href="#">Контакты</a>
+					</li>
+					<li class="nav-item">
+						<a class="text-decoration-none nav-link font-weight-bold" href="tel:+38 (044) 784-23-85">+38 (044) 784-23-85</a>
+					</li>
+					<li class="nav-item mr-4">
+						<a class="nav-link btn-warning font-weight-bold" href="#" role="button">Заказать звонок</a>
+					</li>
+					<li class="nav-item mr-2">
+						<div class="number pl-1">5</div>
+						<img src="./img/icon/basket.png" alt="basket" />
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle font-weight-bold mr-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							4 896 грн.
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">2 448 грн.</a>
+							<a class="dropdown-item" href="#">1 224 грн.</a>
+							<a class="dropdown-item" href="#">1 224 грн.</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item font-weight-bold" href="#">4 896 грн.</a>
+						</div>
+					</li>
+					<div class="d-flex">
+						<i class="fas fa-user-alt user"></i>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Вход
+								</a>
+								<form class="dropdown-menu p-4">
+									<div class="form-group">
+										<label for="exampleDropdownFormEmail2">Email address</label>
+										<input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+									</div>
+									<div class="form-group">
+										<label for="exampleDropdownFormPassword2">Password</label>
+										<input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+									</div>
+									<div class="form-check">
+										<input type="checkbox" class="form-check-input" id="dropdownCheck2">
+										<label class="form-check-label" for="dropdownCheck2">
+											Remember me
+										</label>
+									</div>
+									<button type="submit" class="btn btn-primary mt-5">Sign in</button>
+								</form>
+							</li>
+					</div>
+			  	</ul>
+			</div>
+	</nav>
 </div>

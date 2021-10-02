@@ -1,0 +1,25 @@
+@import "mixin-fonts";
+@import "variable";
+
+.consultation {
+	width: 1600px;
+	height: 471px;
+	background-image: url(../img/background/drawing.jpg);
+}
+.box-form {
+	width: 570px;
+	height: 582px;
+	top: -40px;
+	border: solid #292626;
+	background-color: #ffffff;
+	margin-left: 815px;
+}
+.was-validated .form-control:invalid {
+	border-radius: none;
+	border-color: #ffffff;
+	border-bottom-color: #666;
+}
+.btn-card {
+	width: 470px;
+	background-color: $background-btn;
+}
