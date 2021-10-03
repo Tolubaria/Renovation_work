@@ -15,11 +15,12 @@
 	margin-left: 815px;
 }
 .was-validated .form-control:invalid {
+	width: 428px;
 	border-radius: none;
 	border-color: #ffffff;
 	border-bottom-color: #666;
 }
 .btn-card {
-	width: 470px;
+	width: 428px;
 	background-color: $background-btn;
 }

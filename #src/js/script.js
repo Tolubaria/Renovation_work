@@ -1,1 +1,1 @@
-@@include('_header.js')
+@@include('_section-about_company.js')
