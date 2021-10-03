@@ -4,13 +4,13 @@
 .contacts {
 	width: 1600px;
 	background-image: url(../img/background/Map.jpg);
-	&__box {
-		max-width: 620px;
-		height: 588px;
-	}
-	&__card {
-		margin-left: 222px;
-	}
+		&__box {
+			max-width: 620px;
+			height: 588px;
+		}
+		&__card {
+			margin-left: 222px;
+		}
 }
 .card {
 	background: #F3FAFF;
