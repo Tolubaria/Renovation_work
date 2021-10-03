@@ -6,6 +6,7 @@
 В проекте используются:
 - HTML;
 - reset.css;
+- gulp
 - scss;
 - botstrap;
 - jquery
