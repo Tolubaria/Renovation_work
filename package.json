@@ -1,7 +1,7 @@
 {
-  "name": "step-project-forkio",
+  "name": "Construction company",
   "version": "1.0.0",
-  "description": "step-project",
+  "description": "test",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
