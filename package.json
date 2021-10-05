@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp watch",
-    "build": "npm run start"
+    "build": "gulp build"
   },
   "author": "",
   "license": "ISC",
